@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Todo App</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>My Todo App</h1>
+    <form id="new-task-form">
+      <input type="text" id="task-name" placeholder="Task Name" required>
+      <input type="text" id="task-activity" placeholder="Activity" required>
+      <button type="submit">Add Task</button>
+      <p>My Score: <span id="productivity-score">0</span></p>
+    </form>
+    <main>
+      <h2>Todo List</h2>
+      <ul id="task-list"></ul>
+    </main>
+  </header>
+  <script src="script.js"></script>
+</body>
+</html>
